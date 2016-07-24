@@ -1,0 +1,15 @@
+.singleFilm {
+  border: 1px solid black;
+}
+
+.details {
+  border: 1px solid black;
+}
+img {
+  height: 10%;
+  widht: 10%;
+}
+/*.inset {
+  height: 25%;
+  widht: 25%;
+}*/

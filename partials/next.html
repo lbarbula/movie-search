@@ -1,0 +1,28 @@
+<form>
+  <div input-field>
+    <input type="text" ng-model="view.searchText">
+  </div>
+  <a ui-sref="home({title: view.searchText})"><button ng-click="">Search Database</button></a>
+</form>
+
+<div class="col s12 m7">
+  <h2 class="header">{{view.movie.Title}}: {{view.movie.Released}}</h2>
+  <div class="card horizontal">
+    <div class="card medium">
+      <div class="card-image">
+        <img src="{{view.movie.Poster}}">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>{{view.movie.Plot}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="details" ng-init="details(view.title)">
+  <p>{{view.movie.Title}}</p>
+  <img src="{{view.movie.Poster}}">
+  <p>{{view.movie.Plot}}</p>
+</div> -->
